@@ -73,7 +73,7 @@ function getSentenceRanks(chatLog) {
         sentencesDict.set(sentences[i], score/words.length);
     }
 
-    return sentencesDict;7
+    return sentencesDict;
 }
 
 // calculates intersect values of any number of parameter sentences 
